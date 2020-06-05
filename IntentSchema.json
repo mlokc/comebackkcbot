@@ -1,0 +1,2347 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "covidnineteenkc",
+      "intents": [
+        {
+          "name": "Pregnant",
+          "samples": [
+            "i\u0027m pregnant, do i have increased risk?",
+            "if i\u0027m pregnant, do i have increased risk of covid?",
+            "should i worry if i\u0027m pregnant?",
+            "what if i\u0027m pregnant"
+          ]
+        },
+        {
+          "name": "¿quéPuedoHacerParaProtegerme?",
+          "samples": [
+            "¿cómo puedo permanencer sano?",
+            "¿cómo se puede protegerse?",
+            "¿qué puedo hacer para protegerme?"
+          ]
+        },
+        {
+          "name": "FlatteningCurve",
+          "samples": [
+            "what does flatten the curve mean?",
+            "what is flattening the curve",
+            "what is flattening the curve?",
+            "why does flatten the curve matter?"
+          ]
+        },
+        {
+          "name": "TestNoSwab",
+          "samples": [
+            "can i get tested without a nasal swab?",
+            "can i get tested without a swab?",
+            "do have have to get my nose swabbed for a test?",
+            "do i have to get a stick up my nose to get tested?",
+            "do they stick a swab up my nose to test"
+          ]
+        },
+        {
+          "name": "ReachedPeak",
+          "samples": [
+            "are cases trending down",
+            "are we at the peak?",
+            "have all of the surrounding areas peaked?",
+            "have we passed the peak of covid cases?",
+            "when did we hit the peak of cases?"
+          ]
+        },
+        {
+          "name": "DownSyndrome",
+          "samples": [
+            "are people with down syndrome at increased risk?",
+            "are people with down syndrome more apt to getting covid-nineteen?",
+            "does having down syndrome increase my risk?",
+            "i have down syndrome"
+          ]
+        },
+        {
+          "name": "NeedDrOrder",
+          "samples": [
+            "do i need a doctor\u0027s order for a test?",
+            "do i need a referral from my dr. to get tested?",
+            "how do i qualify to get tested."
+          ]
+        },
+        {
+          "name": "HowHelp",
+          "samples": [
+            "can i volunteer for comeback kc?",
+            "how can i help you?",
+            "how can i help?",
+            "i\u0027d like to get involved?"
+          ]
+        },
+        {
+          "name": "HowDoesItSpread?",
+          "samples": [
+            "how can i get covid nineteen?",
+            "how do you get covid-nineteen?",
+            "how do you get the corona virus?",
+            "how does coronavirus spread?",
+            "how does covid spread?",
+            "how does covid-nineteen spread",
+            "how does covid-nineteen spread?",
+            "how does this spread?"
+          ]
+        },
+        {
+          "name": "¿dóndePuedoHacermeLaPrueba?Custom",
+          "slots": [
+            {
+              "name": "contacta_al_departamentoslot",
+              "type": "CONTACTA_AL_DEPARTAMENTO"
+            }
+          ],
+          "samples": [
+            "{contacta_al_departamentoslot}"
+          ]
+        },
+        {
+          "name": "WhoTested",
+          "samples": [
+            "do i have to have symptoms to get tested?",
+            "how do i know if i should get tested?",
+            "should i get a swab test if i don\u0027t have any symptoms",
+            "when should i get tested",
+            "when should i get tested?",
+            "who can get tested",
+            "who should get tested?"
+          ]
+        },
+        {
+          "name": "MosquitosAndTicks",
+          "samples": [
+            "can covid be spread by mosquitos?",
+            "can it be spread by mosquitoes?",
+            "can you get it from mosquitoes?",
+            "can you get it from ticks?",
+            "do ticks carry it?"
+          ]
+        },
+        {
+          "name": "¿puedeMiHijoInvitarASusAmigosVenirALaCasa?",
+          "samples": [
+            "¿es posible tener una fiesta en mi casa?",
+            "¿puede mi hijo invitar a sus amigos venir a la casa?",
+            "¿se puede invitar amigos a su casa?"
+          ]
+        },
+        {
+          "name": "DoorToDoor",
+          "samples": [
+            "are door to door salespeople allowed",
+            "are door to door salespeople allowed?",
+            "are door to door salespeople without masks allowed?",
+            "can people knock on your door without a mask?"
+          ]
+        },
+        {
+          "name": "PlaceNameOnly",
+          "slots": [
+            {
+              "name": "contacthealthdeptslot",
+              "type": "CONTACTHEALTHDEPT"
+            }
+          ],
+          "samples": [
+            "{contacthealthdeptslot}"
+          ]
+        },
+        {
+          "name": "DefaultWelcomeIntent",
+          "samples": [
+            "chao",
+            "hello",
+            "hey",
+            "hey ho",
+            "hi",
+            "hi.",
+            "hola",
+            "how ya doing?",
+            "how\u0027s it hanging",
+            "saludos",
+            "wassup",
+            "what\u0027s up",
+            "yo"
+          ]
+        },
+        {
+          "name": "CómoSePropaga",
+          "samples": [
+            "¿cómo se propaga el covid-nineteen?",
+            "¿cómo se puede contagiarse con el covid-nineteen?",
+            "¿cómo se puede infectarse con el covid-nineteen?"
+          ]
+        },
+        {
+          "name": "NeedTransportation",
+          "samples": [
+            "can i get a ride to the test site?",
+            "i don\u0027t have a car",
+            "i don\u0027t have a ride",
+            "i need a ride",
+            "i need a ride to get a test",
+            "i need a ride to get tested",
+            "i need a ride to the doctor\u0027s office",
+            "i need someone to take me to get a test",
+            "i need transportation",
+            "what if i\u0027m elderly and don\u0027t have transportation"
+          ]
+        },
+        {
+          "name": "ComparedToFlu",
+          "samples": [
+            "how does covid compare to flu",
+            "how does it compare to flu?",
+            "how much worse is it than influenza?",
+            "is covid like flu",
+            "is covid like the flue",
+            "is covid more dangerous than flu?",
+            "is it the same as the flu",
+            "is it the same as the flu?"
+          ]
+        },
+        {
+          "name": "JanuaryFebruary",
+          "slots": [
+            {
+              "name": "dateperiodslot",
+              "type": "AMAZON.DATE"
+            },
+            {
+              "name": "symptomsslot",
+              "type": "SYMPTOMS"
+            }
+          ],
+          "samples": [
+            "did i have the coronavirus in {dateperiodslot}",
+            "i had a {symptomsslot} in {dateperiodslot} was it covid",
+            "i was sick in {dateperiodslot} can i tell if it was covid"
+          ]
+        },
+        {
+          "name": "DrinkingAfter",
+          "samples": [
+            "can i get it from drinking",
+            "can i get it from drinking after someone?",
+            "can i get sick from drinking someone else\u0027s water bottle?",
+            "can i get sick from sharing a glass?",
+            "what if i use someone else\u0027s glass"
+          ]
+        },
+        {
+          "name": "AntibodyTest",
+          "slots": [
+            {
+              "name": "symptomsslot",
+              "type": "SYMPTOMS"
+            }
+          ],
+          "samples": [
+            "can i get tested to see if i had it?",
+            "how can i find out if i already had covid-nineteen?",
+            "i had a {symptomsslot} before is there a way to tell if it was covid",
+            "is it possible to get a test to see if i had covid-nineteen but am now over it?",
+            "is there a way to know if i\u0027ve already had coronavirus?"
+          ]
+        },
+        {
+          "name": "WhoMadeBot",
+          "samples": [
+            "where are you getting your advice from?",
+            "where do you get your information?",
+            "who are you",
+            "who are you?",
+            "who is behind this bot?",
+            "who made this bot?",
+            "who wrote these answers?"
+          ]
+        },
+        {
+          "name": "GetMask",
+          "samples": [
+            "how can i get a mask?",
+            "is someone selling masks near me?",
+            "where can i buy a mask?",
+            "where can i find a mask?",
+            "where can i get a mask?"
+          ]
+        },
+        {
+          "name": "WearGloves",
+          "samples": [
+            "does wearing gloves protect from the virus?",
+            "is it ok to wear gloves?",
+            "should i be wearing gloves?",
+            "should i wear gloves",
+            "should i wear gloves?"
+          ]
+        },
+        {
+          "name": "NsaidsDangerous",
+          "samples": [
+            "can anti-inflammatory drugs like nsaids like ibuprofen make covid-nineteen worse?",
+            "do nsaids make covid-nineteen worse?",
+            "i heard that nsaids were bad for you.",
+            "is it bad to take advil?",
+            "is it bad to take nsaids?",
+            "is it ok to take advil?"
+          ]
+        },
+        {
+          "name": "¿cómoSePropagaElCovid19?",
+          "samples": [
+            "cómo puedo infectarme con el coronavirus?",
+            "¿cómo se propaga el covid-nineteen?"
+          ]
+        },
+        {
+          "name": "MaskOutside",
+          "samples": [
+            "do i need to wear a mask outside?",
+            "do i need to wear a mask when i\u0027m walking in the park?",
+            "if i go to the park, should i wear a mask?",
+            "if i\u0027m exercising outside, do i need a mask?",
+            "should i wear a mask when i go for a walk?"
+          ]
+        },
+        {
+          "name": "GetItFromPets",
+          "samples": [
+            "can cats get it?",
+            "can i catch coronavirus from my cat?",
+            "can i catch covid-nineteen from my dog?",
+            "can i get it from my dog",
+            "can i get it from my dog?",
+            "can my cat give me covid?",
+            "can my dog give me coronavirus?"
+          ]
+        },
+        {
+          "name": "FromSex",
+          "samples": [
+            "can covid be sexually transmitted?",
+            "can i get it from having sex",
+            "can i get it from having sex?",
+            "can you get it from sex",
+            "can you get it from sex?",
+            "is covid an std?",
+            "is the virus in semen?"
+          ]
+        },
+        {
+          "name": "GoToParty",
+          "samples": [
+            "can i go to the club?",
+            "is it safe to go to a friends wedding?",
+            "pool party in ozards",
+            "should i go to a party",
+            "should i go to a pool party in the ozarks",
+            "should i go to a wedding",
+            "should i go to a wedding?",
+            "should i party in a pool at the ozarks?"
+          ]
+        },
+        {
+          "name": "WhatIsCoronavirus?",
+          "samples": [
+            "what is corona virus?",
+            "what is coronavirus",
+            "what is the coronavirus",
+            "what is the coronavirus?",
+            "what is the novel coronavirus?"
+          ]
+        },
+        {
+          "name": "¿deDóndeVieneElCoronavirus?",
+          "samples": [
+            "¿de dónde viene el coronavirus?"
+          ]
+        },
+        {
+          "name": "OnlyOlderPeople",
+          "samples": [
+            "can only older people get sick?",
+            "do only older people need to worry about coronavirus?",
+            "i have asthma, am i more at risk?",
+            "i heard only old people die of covid?",
+            "who is most at risk from covid-nineteen?"
+          ]
+        },
+        {
+          "name": "HowDoIKnow?",
+          "samples": [
+            "how can you tell if you have covid?",
+            "how do i know if i have covid",
+            "how do i know if i have covid-nineteen?"
+          ]
+        },
+        {
+          "name": "PromisingTreatment",
+          "samples": [
+            "are there any promising drugs?",
+            "are there any treatments?",
+            "what drugs are being developed to fight covid?",
+            "what is the most promising drug",
+            "what is the most promising treatment?",
+            "what treatments are being tested?"
+          ]
+        },
+        {
+          "name": "WhereAntibodyTest?",
+          "samples": [
+            "where can i get an antibody test",
+            "where can i get an antibody test?",
+            "where can kc residents find antibody testing?",
+            "who is doing antibody tests?"
+          ]
+        },
+        {
+          "name": "¿dóndePuedoHacermeLaPrueba?",
+          "samples": [
+            "donde prueba",
+            "donde pruebas",
+            "pruebas",
+            "¿dónde puedo hacerme la prueba?"
+          ]
+        },
+        {
+          "name": "Disinfectant",
+          "samples": [
+            "does drinking disinfectant kill covid?",
+            "i heard you can inject disinfectant?",
+            "should i inject bleach",
+            "should i inject disinfectant?",
+            "what about drinking disinfectant?"
+          ]
+        },
+        {
+          "name": "BatSoup",
+          "samples": [
+            "did coronavirus come from eating bat soup?",
+            "did covid come from eating bats?",
+            "did it come from someone eating bat soup?",
+            "does covid-nineteen come from bat soup?",
+            "i heard it came from bat soup?",
+            "murcielagos"
+          ]
+        },
+        {
+          "name": "CovidVsCoronavirus",
+          "samples": [
+            "what is covid-nineteen?",
+            "what is the difference between covid and coronavirus",
+            "what is the difference between covid-nineteen and the coronavirus?",
+            "what\u0027s the difference between covid and coronavirus?",
+            "what\u0027s the difference between covid and rona?"
+          ]
+        },
+        {
+          "name": "HowMuchAntibodyTest",
+          "samples": [
+            "are antibody tests free?",
+            "how expensive are antibody tests?",
+            "how much does the antibody test cost",
+            "how much does the antibody test cost?",
+            "is the antibody test free?"
+          ]
+        },
+        {
+          "name": "CleanGroceries",
+          "samples": [
+            "do i need to clean my groceries?",
+            "should i clean groceries",
+            "should i clean my groceries?",
+            "should i wipe down my groceries?",
+            "what about groceries"
+          ]
+        },
+        {
+          "name": "TalkToHuman",
+          "samples": [
+            "can i talk to a human",
+            "can i talk to a human?",
+            "can i talk to a person",
+            "can i talk to a real person?",
+            "give me a human",
+            "i want to talk to a person"
+          ]
+        },
+        {
+          "name": "SafeToWork",
+          "samples": [
+            "is it ok to go to work?",
+            "is it safe to go to work?",
+            "should i go work from home today?"
+          ]
+        },
+        {
+          "name": "FromPackages",
+          "samples": [
+            "can i get it from an elevator button",
+            "can i get it from packages?",
+            "can i get sick from deliveries?",
+            "can you get it from mail?",
+            "do i need to clean off amazon packages?",
+            "should i clean boxes?"
+          ]
+        },
+        {
+          "name": "LiveOnObjects",
+          "samples": [
+            "can i catch covid by touching a door knob?",
+            "can i get covid from drinking after someone?",
+            "can i get it from touching an elevator button",
+            "can it live on objects?",
+            "can you catch covid on surfaces?",
+            "how long can it live on things?",
+            "how long does coronavirus live on surfaces?",
+            "how long does it last on objects?",
+            "is surface transmission possible?"
+          ]
+        },
+        {
+          "name": "WhereCameFrom?",
+          "samples": [
+            "where did it come from?",
+            "where did the coronavirus come from?",
+            "where does covid come from?",
+            "where does the coronavirus come from?"
+          ]
+        },
+        {
+          "name": "ChurchesMeeting",
+          "samples": [
+            "are church services allowed?",
+            "are churches meeting in person",
+            "can i congregate at church?",
+            "is it safe to go to church",
+            "is it safe to go to mass?"
+          ]
+        },
+        {
+          "name": "WearAMask",
+          "samples": [
+            "are masks recommended?",
+            "do i have to wear a mask?",
+            "do i need to wear a mask?",
+            "should i wear a mask",
+            "should i wear a mask?",
+            "should you wear a mask right now?",
+            "what about mask?",
+            "what about masks?",
+            "what rules are in place about masks?"
+          ]
+        },
+        {
+          "name": "IfSick",
+          "samples": [
+            "i think i have it",
+            "i think i\u0027m sick",
+            "if i\u0027m sick, how long do i have to isolate?",
+            "what do i do if i have covid?",
+            "what if i\u0027m sick?",
+            "what should i do if i think i might have covid-nineteen?",
+            "what should i do if i\u0027m sick?",
+            "what to do if sick?"
+          ]
+        },
+        {
+          "name": "CleanPhone",
+          "samples": [
+            "can i get it from my phone",
+            "can i get it from my phone?",
+            "do i need to clean my phone?",
+            "how do i clean my phone?"
+          ]
+        },
+        {
+          "name": "FalseNegative",
+          "samples": [
+            "how do i know if i had a false negative result?",
+            "how do i know if its a false negative?",
+            "what does false negative mean?",
+            "what if my test is a false negative?",
+            "what is a false negative?"
+          ]
+        },
+        {
+          "name": "ManyInHouse",
+          "samples": [
+            "how can i quarantine when so many people live in my house?",
+            "i have a bunch of people in my house",
+            "what do i do if i have a lot of people at home?"
+          ]
+        },
+        {
+          "name": "HowContagious",
+          "samples": [
+            "how contagious is covid",
+            "how contagious is the coronavirus",
+            "how contagious is this?",
+            "how quickly does this spread?",
+            "is corona virus contagious",
+            "is the coronavirus more contagious than the flu"
+          ]
+        },
+        {
+          "name": "LockdownAgain",
+          "samples": [
+            "what if we have to go into lockdown again?",
+            "will the government issue new stay-at-home orders?",
+            "will we have to go into lockdown again?"
+          ]
+        },
+        {
+          "name": "TestingLocation",
+          "slots": [
+            {
+              "name": "contacthealthdeptslot",
+              "type": "CONTACTHEALTHDEPT"
+            }
+          ],
+          "samples": [
+            "{contacthealthdeptslot}",
+            "i live in {contacthealthdeptslot}"
+          ]
+        },
+        {
+          "name": "Plandemic",
+          "samples": [
+            "i watched plandemic",
+            "is plandemic accurate",
+            "plandemic says this is all a hoax",
+            "what about the film plandemic"
+          ]
+        },
+        {
+          "name": "Suicides",
+          "samples": [
+            "are there more suicides from isolation",
+            "are there more suicides?",
+            "has the suicide rate gone up?",
+            "has there been an increase in suicides from isolation?",
+            "have stay-at-home orders increased the suicide rate?",
+            "have there been more suicides?",
+            "how much has the suicide rate gone up?"
+          ]
+        },
+        {
+          "name": "GroceryShoppping",
+          "samples": [
+            "can i go grocery shopping",
+            "is grocery shopping safe?",
+            "is it ok to go to the grocery store?",
+            "is it safe to go get groceries?",
+            "what about shopping for groceries?"
+          ]
+        },
+        {
+          "name": "TestHurt",
+          "samples": [
+            "does sticking a swab up my nose hurt?",
+            "does the swab hurt?",
+            "does the test hurt",
+            "does the test hurt?",
+            "is the nasal swab painful?"
+          ]
+        },
+        {
+          "name": "HomemadeSanitizer",
+          "samples": [
+            "can i make my own hand sanitizer?",
+            "does homemade sanitizer kill coronavirus?",
+            "does homemade sanitizer work?",
+            "what about homemade sanitizer?"
+          ]
+        },
+        {
+          "name": "Help",
+          "samples": [
+            "help",
+            "help!",
+            "help, please",
+            "i need help"
+          ]
+        },
+        {
+          "name": "Immunity",
+          "samples": [
+            "can i get covid a twond time?",
+            "can i get covid if i have already had it",
+            "can i get covid nineteen a second time?",
+            "can you get coronavirus more than once?",
+            "i had it. am i immune?",
+            "if i already had covid-nineteen, am i immune?",
+            "if i had it, can i get it again?",
+            "if you get sick, can you get it again?",
+            "if you get sick, do you have immunity to covid-nineteen?"
+          ]
+        },
+        {
+          "name": "Hola",
+          "samples": [
+            "buenos días",
+            "buenos noches",
+            "buenos tardes",
+            "hola",
+            "hola!",
+            "muy buenos",
+            "qué tal",
+            "¿cómo te va?"
+          ]
+        },
+        {
+          "name": "IsItAHoax",
+          "samples": [
+            "how do i know this isn\u0027t a hoax?",
+            "i heard its a hoax",
+            "is covid a hoax?",
+            "is the coronavirus a hoax?"
+          ]
+        },
+        {
+          "name": "AsymptomaticSpread",
+          "samples": [
+            "can i spread it to someone if i don\u0027t have symptoms?",
+            "can i spread it without symptoms?",
+            "can it be spread asymptomatically?",
+            "if someone doesn\u0027t have symptoms, can they spread it?",
+            "what about asymptomatic transmission?",
+            "what if i am asymptomatic? can i spread it?",
+            "what if i don\u0027t have symptoms?"
+          ]
+        },
+        {
+          "name": "WhatIsSocialDistancing",
+          "samples": [
+            "how do i do social distancing?",
+            "what does social distancing mean?",
+            "what is social distancing?"
+          ]
+        },
+        {
+          "name": "PlansAndGuidelines",
+          "samples": [
+            "are we reopening?",
+            "has kc reopened?",
+            "is everything open?",
+            "is kansas city reopening?",
+            "is kc open",
+            "is kc open?",
+            "is kc re-opening?",
+            "re-opening",
+            "what are plans for my city",
+            "what are plans for my state",
+            "what are the guidelines for my city?",
+            "what are the guidelines for my county?",
+            "what are the guidelines for my state?",
+            "what are the guidelines that have been issued for my state?",
+            "what is the kansas plan",
+            "what is the plan for jackson county",
+            "what is the plan for kck",
+            "what is the plan for kcmo",
+            "what\u0027s open?",
+            "when is kansas city reopening?"
+          ]
+        },
+        {
+          "name": "ContactTracing",
+          "samples": [
+            "how does contact tracing work?",
+            "what do you mean by tracking?",
+            "what is contact tracing",
+            "what is contact tracing?",
+            "why is contact tracing important?"
+          ]
+        },
+        {
+          "name": "HowMany",
+          "slots": [
+            {
+              "name": "numberslot",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "are the covid {numberslot} numbers accurate",
+            "has the covid curve decreased in kansas?",
+            "how many are dead",
+            "how many are sick",
+            "how many cases do we have",
+            "how many cases of covid has kansas city had?",
+            "how many cases of covid nineteen are in johnson county kansas?",
+            "how many confirmed cases in johnson county?",
+            "how many have died",
+            "how many patients are there",
+            "how many people are dead",
+            "how many people are sick",
+            "how many people are sick in my area",
+            "how many people died",
+            "how many people died in kc",
+            "how many people have been hospitalized",
+            "how many people have been tested",
+            "how many people have died",
+            "how many people have died from covid in kc?",
+            "how many people have died from covid nineteen",
+            "how many people have died in kc from the coronavirus?",
+            "how many people have tested positive for covid-nineteen in missouri?",
+            "is the curve flattening?",
+            "what is the current rate of infections in johnson county?",
+            "what is the infection rate",
+            "what percent of infected children have died from covid?"
+          ]
+        },
+        {
+          "name": "¿cuándoHabráUnaVacunaDesponibleContraElCovid19?",
+          "samples": [
+            "hay una vacuna?",
+            "¿cuándo habrá una vacuna desponible contra el covid-nineteen?",
+            "¿cuándo se podrá recibir la vacuna?"
+          ]
+        },
+        {
+          "name": "HydroxychloroquineWork",
+          "samples": [
+            "can hydroxychloroquine prevent coronavirus infection?",
+            "does hcq work?",
+            "does hydroxychoroquine cure it?",
+            "what about hcq",
+            "what about hcq?",
+            "what about hydroxychloroquine?"
+          ]
+        },
+        {
+          "name": "Phases",
+          "samples": [
+            "what are the steps and phases of our plan?",
+            "what businesses are included in each phase?",
+            "what phase are we in now?",
+            "what phase of reopening are we in?"
+          ]
+        },
+        {
+          "name": "HotAir",
+          "samples": [
+            "can a hair dryer kill covid?",
+            "can i use a hair dryer to kill coronavirus?",
+            "does hot air from a hairdryer kill it?",
+            "i heard a hair dryer can kill it",
+            "i heard that hot air from a hair dryer kills it.",
+            "i\u0027ve heard you should inhale hot air from a hair dryer?"
+          ]
+        },
+        {
+          "name": "HowLongSymptoms",
+          "samples": [
+            "how long after i am exposed before symptoms show up?",
+            "how long before symptoms start to happen?",
+            "how long does it take for covid symptoms to start?",
+            "how long does it take to show symptoms",
+            "what is the incubation period",
+            "what is the incubation period?"
+          ]
+        },
+        {
+          "name": "WhenMassGathering",
+          "samples": [
+            "when will it be ok to be out in a crowd?",
+            "when will it be safe for groups to mee",
+            "when will it be safe for large groups to meet?",
+            "when will we have big events again?"
+          ]
+        },
+        {
+          "name": "Transmitir",
+          "samples": [
+            "¿se lo puedo transmitir a alguien si yo no tengo síntomas?"
+          ]
+        },
+        {
+          "name": "WhatAsk?",
+          "samples": [
+            "what can i ask",
+            "what can i ask?",
+            "what do you know?",
+            "what questions can i ask?"
+          ]
+        },
+        {
+          "name": "WhichStoresRequireMasks",
+          "samples": [
+            "do you have a list of stores with mask rules?",
+            "which stores require masks for customers and staff?",
+            "which stores require masks?"
+          ]
+        },
+        {
+          "name": "IsThereAVaccine?",
+          "samples": [
+            "is a vaccine available?",
+            "is there a vaccine?",
+            "when will there be a vaccine?"
+          ]
+        },
+        {
+          "name": "HowAccurateAreTests",
+          "samples": [
+            "how accurate are covid tests?",
+            "how accurate are the coronavirus tests?",
+            "how accurate are the tests?",
+            "how reliable and accurate is the test",
+            "i heard the tests weren\u0027t very accurate. is that true?"
+          ]
+        },
+        {
+          "name": "ChildcareOptions",
+          "samples": [
+            "are child care centers open?",
+            "can i send my kids to child care?",
+            "should i send my child to daycare",
+            "what are my childcare options?"
+          ]
+        },
+        {
+          "name": "AgeToTest",
+          "samples": [
+            "how old do you have to be to test?",
+            "is there an age limit for tests?",
+            "what is the age limit to test",
+            "what is the age to test?"
+          ]
+        },
+        {
+          "name": "Bleach",
+          "samples": [
+            "can i use bleach to kill it?",
+            "does bleach kill it?",
+            "what about bleach"
+          ]
+        },
+        {
+          "name": "DefaultFallbackIntent",
+          "samples": [
+            "does nicotine stop covid?",
+            "what is the most promising drug to treat covid?",
+            "why has kcmo become a hotspot?",
+            "why is kcmo a hotspot"
+          ]
+        },
+        {
+          "name": "EndIsolation",
+          "samples": [
+            "when can i end isolation?",
+            "when can i stop self-isolation?",
+            "when is it safe to end self-isolation?"
+          ]
+        },
+        {
+          "name": "UvLight",
+          "samples": [
+            "can i kill it with uv light?",
+            "does sunlight kill it?",
+            "does uv light kill coronavirus?",
+            "does uv light kill covid?",
+            "i heard that sunlight kills it."
+          ]
+        },
+        {
+          "name": "HerdImmunity",
+          "samples": [
+            "should we follow a herd immunity strategy?",
+            "what is herd immunity",
+            "what is herd immunity?",
+            "when will we reach herd immunity?"
+          ]
+        },
+        {
+          "name": "¿deboDeUsarMáscara?",
+          "samples": [
+            "¿debo de usar máscara?"
+          ]
+        },
+        {
+          "name": "DifferenceBetweenTests",
+          "samples": [
+            "what is the difference between the covidnineteen antibody test and a molecular test?",
+            "what\u0027s the difference between an antibody test and a swab test?",
+            "what\u0027s the difference between the nasal swab and the blood test?"
+          ]
+        },
+        {
+          "name": "AlHospital?",
+          "samples": [
+            "¿cuando debo ir al hospital?",
+            "¿cuándo sé que tengo que ir al hospital?"
+          ]
+        },
+        {
+          "name": "Nicotine",
+          "samples": [
+            "do cigarettes stop the coronavirus?",
+            "does nicotine stop it",
+            "does nicotine stop it?",
+            "does smoking stop covid?",
+            "does tobacco help covid?",
+            "i smoke"
+          ]
+        },
+        {
+          "name": "WarmWeather",
+          "slots": [
+            {
+              "name": "dateperiodslot",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "does heat kill it",
+            "what about summer?",
+            "will it die in {dateperiodslot}",
+            "will warm weather kill rona?",
+            "will warm weather kill the coronavirus?",
+            "will warm weather stop covid-nineteen?",
+            "will {dateperiodslot} kill it",
+            "will {dateperiodslot} kill it off"
+          ]
+        },
+        {
+          "name": "¿cuandoDeboIrAlHospital?",
+          "samples": [
+            "¿cuando debo ir al hospital?"
+          ]
+        },
+        {
+          "name": "ContactTracers",
+          "samples": [
+            "are you hiring contact tracers?",
+            "can i be a contact tracer",
+            "can i become a contact tracer?",
+            "how do i become a contact tracer?"
+          ]
+        },
+        {
+          "name": "ManMade",
+          "samples": [
+            "did the coronavirus come from a lab?",
+            "is covid artificial?",
+            "is the coronavirus a bioweapon?",
+            "is the coronavirus man made?",
+            "was covid made in a lab?"
+          ]
+        },
+        {
+          "name": "KidsOver",
+          "samples": [
+            "can kids play together?",
+            "can my child have friends over for a party?",
+            "can my child have friends over?",
+            "is it ok to have my child\u0027s friends over?"
+          ]
+        },
+        {
+          "name": "SafeKidThings",
+          "samples": [
+            "how can i help keep my kids safe and entertained?",
+            "is it safe for my kids to sleep over with at a friend\u0027s house?",
+            "my kids are going crazy. what should they do?",
+            "what are some safe things to do with my kids?"
+          ]
+        },
+        {
+          "name": "ChildrenGetIt",
+          "samples": [
+            "can children get covid-nineteen?",
+            "can children get covid?",
+            "can children get it",
+            "can kids get it",
+            "can kids get it?",
+            "can kids get the virus?",
+            "does covid effect kids?"
+          ]
+        },
+        {
+          "name": "Autoimmune",
+          "samples": [
+            "are people with autoimmune diseases at greater risk of covid?",
+            "i have an autoimmune disease",
+            "if i have an auttoimmune condition, am i at greater risk?",
+            "what if i have an autoimmune disease"
+          ]
+        },
+        {
+          "name": "HugFriends",
+          "samples": [
+            "is it safe to hug friends?",
+            "what about hugging people?",
+            "when can i hug my friends",
+            "when can i hug my friends again?",
+            "when will i be able to hug people?",
+            "when will we be able to shake hands?"
+          ]
+        },
+        {
+          "name": "SafeInPublic",
+          "samples": [
+            "can i go out in public?",
+            "is it safe in public?",
+            "is it safe to go out in public?",
+            "what about going out in public?"
+          ]
+        },
+        {
+          "name": "WhenVaccine",
+          "samples": [
+            "how long til there\u0027s a vaccine?",
+            "how long till we get a vaccine?",
+            "is there a vaccine for covid?",
+            "what\u0027s happening about a vaccine?",
+            "when will we have a vaccine?"
+          ]
+        },
+        {
+          "name": "Welcome",
+          "samples": [
+            "thank you",
+            "thanks",
+            "thx"
+          ]
+        },
+        {
+          "name": "¿puedeMiPerroContagiarseConElCovid19?",
+          "samples": [
+            "¿es posible que mi perro tenga el covid-nineteen?",
+            "¿puede mi perro contagiarse con el covid-nineteen?",
+            "¿puede tener mi perro el virus?"
+          ]
+        },
+        {
+          "name": "GetAntibodyTest",
+          "samples": [
+            "are antibody tests reliable?",
+            "can anyone get an antibody test?",
+            "can i get an antibody test",
+            "can i get an antibody test?",
+            "should i get an antibody test?"
+          ]
+        },
+        {
+          "name": "Travel",
+          "samples": [
+            "can i get on a plane?",
+            "can i go on vacation?",
+            "can i travel to new orleans?",
+            "i am allowed to travel?",
+            "is it safe to travel?",
+            "is travel allowed?",
+            "is travel ok?",
+            "should i cancel my trip?"
+          ]
+        },
+        {
+          "name": "ContactHealthDeptCustom",
+          "slots": [
+            {
+              "name": "contacthealthdeptslot",
+              "type": "CONTACTHEALTHDEPT"
+            }
+          ],
+          "samples": [
+            "{contacthealthdeptslot}"
+          ]
+        },
+        {
+          "name": "GoToGym",
+          "samples": [
+            "can i do pilates?",
+            "can i go to my exercise class?",
+            "can i go to my gym?",
+            "can i go to yoga?",
+            "can i work out at the gym?",
+            "can i work out?",
+            "can i workout?",
+            "is it safe to go to the gym?",
+            "what about going to the gym?"
+          ]
+        },
+        {
+          "name": "HowLongContagious",
+          "samples": [
+            "how long are people sick with the coronavirus?",
+            "how long are you contagious if you get it?",
+            "how long does it last?",
+            "how long does it usually last?",
+            "how long will i be contagious",
+            "how long will i be contagious?",
+            "how long will i be sick?"
+          ]
+        },
+        {
+          "name": "LaDiferencia",
+          "samples": [
+            "¿cuál es la diferencia entre el coronavirus y el covid-nineteen?"
+          ]
+        },
+        {
+          "name": "ColloidalSilver",
+          "samples": [
+            "can colloidal silver kill coronavirus?",
+            "can i take silver?",
+            "does silver cure covid-nineteen?",
+            "i heard silver is good for covid?"
+          ]
+        },
+        {
+          "name": "DriveThruAppt",
+          "samples": [
+            "do drive-through testing sites require an appointment?",
+            "do i need an appointment for a drive-through test?",
+            "do the drive thru tests require an appointment?"
+          ]
+        },
+        {
+          "name": "GetInTouch",
+          "samples": [
+            "can i talk to someone at comeback kc?",
+            "do you have an email address?",
+            "how can i contact you?",
+            "how do i get in touch with you?"
+          ]
+        },
+        {
+          "name": "CanIMakeMyCatSickWithCovid?",
+          "samples": [
+            "can i give it to my dog?",
+            "can i make my cat sick with covid?",
+            "can my cat get coronavirus?",
+            "can my dog get covid nineteen",
+            "can my dog get it?",
+            "can my pet get it?"
+          ]
+        },
+        {
+          "name": "FalsePositive",
+          "samples": [
+            "false positive",
+            "what if i get a false positive?",
+            "what is a false positive?",
+            "what\u0027s a false positive"
+          ]
+        },
+        {
+          "name": "FamilyGetsSick",
+          "samples": [
+            "what do i do if a family member has covid?",
+            "what do i do if someone in my family has it?",
+            "what if my child gets sick with covid?",
+            "what if my husband gets sick?",
+            "what if my wife has covid?"
+          ]
+        },
+        {
+          "name": "SummerCamps",
+          "slots": [
+            {
+              "name": "dateperiodslot",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "are there any summer camps open?",
+            "can i send my kids to summer camp?",
+            "can my kids go to summer camp?",
+            "will {dateperiodslot} camps be open"
+          ]
+        },
+        {
+          "name": "SecondWave",
+          "samples": [
+            "when will the next wave hit",
+            "when will we have a second wave",
+            "when will we have a spike?",
+            "will there be a second wave?",
+            "will we have another wave?"
+          ]
+        },
+        {
+          "name": "BossCoffee",
+          "samples": [
+            "can i have coffee with someone?",
+            "is it safe to have coffee with a friend",
+            "is it safe to have coffee with my boss?",
+            "is it safe to meet someone outside?"
+          ]
+        },
+        {
+          "name": "PoolChlorine",
+          "samples": [
+            "can i go swimming?",
+            "does chlorine in the pool kill the coronavirus?",
+            "does chlorine kill the virus?",
+            "is it safe to swim in the pool?",
+            "is swimming safe?",
+            "will swimming pools open this summer?"
+          ]
+        },
+        {
+          "name": "WhatAreSymptoms",
+          "samples": [
+            "do i have coronavirus",
+            "do i have coronavirus?",
+            "how can i tell if i have it?",
+            "how do i know if i have it?",
+            "what are the most common symptoms of covidnineteen?",
+            "what are the symptoms",
+            "what are the symptoms of covid-nineteen?",
+            "what are the symptoms?"
+          ]
+        },
+        {
+          "name": "¿puedenLosAlimentosOComidaContagiarmeConElCovid19?",
+          "samples": [
+            "¿debo lavar la comida de los mercados?",
+            "¿es posible contagiarme a través de comer?",
+            "¿es posible contagiarme a través de la comida o los alimentos?",
+            "¿pueden los alimentos o comida contagiarme con el covid-nineteen?",
+            "¿pueden transmitir el virus los alimentos?"
+          ]
+        },
+        {
+          "name": "AsymptomaticTransmission",
+          "samples": [
+            "can i catch it from someone who doesn\u0027t have symptoms?",
+            "can i spread it if i don\u0027t have symptoms?",
+            "do asymptomatic people spread covid less than those with symptoms?",
+            "how does asymptomatic transmission happen?"
+          ]
+        },
+        {
+          "name": "Likelihood",
+          "samples": [
+            "how likely am i to get sick?",
+            "my coworker had covid, will i get sick?",
+            "my wife or husband has covid-nineteen, how likely am i to get sick",
+            "what are my chances of catching coronavirus?",
+            "what are my chances of getting sick?",
+            "what\u0027s my likelihood to get sick if i\u0027m exposed"
+          ]
+        },
+        {
+          "name": "LongLasting",
+          "samples": [
+            "are there any long-term effects?",
+            "do covidnineteen survivors have long term health concerns because of contracting the virus?",
+            "what are the long-term effects of getting covid-nineteen?"
+          ]
+        },
+        {
+          "name": "ShouldIQuarantine?",
+          "samples": [
+            "do i have to quarantine?",
+            "should i quarantine?",
+            "when should i quarantine?",
+            "who should quarantine?"
+          ]
+        },
+        {
+          "name": "IHaveTheseSymptoms",
+          "slots": [
+            {
+              "name": "symptomsslot",
+              "type": "SYMPTOMS"
+            }
+          ],
+          "samples": [
+            "i have a cough",
+            "i have a cough but no fever. what should i do?",
+            "i have a cough what should i do?",
+            "i have a cough. what should i do?",
+            "i have a {symptomsslot}",
+            "i have a {symptomsslot} . what should i do",
+            "i have a {symptomsslot} and {symptomsslot}",
+            "i have {symptomsslot}"
+          ]
+        },
+        {
+          "name": "QuarantineVsIsolation",
+          "samples": [
+            "how is isolation different than quarantine?",
+            "what is self isolation?",
+            "what\u0027s the difference between isolation and quarantine?"
+          ]
+        },
+        {
+          "name": "TengoSintomas",
+          "samples": [
+            "tengo covid",
+            "tengo síntomas, ¿qué debo de hacer?"
+          ]
+        },
+        {
+          "name": "ProtectMyself?",
+          "samples": [
+            "how can i protect my family?",
+            "how can i protect myself?",
+            "how can i stay safe",
+            "what can i do to prevent contracting covid?",
+            "what can i do to protect myself?",
+            "what can i do?",
+            "what precautions should i take",
+            "what should i do?",
+            "what steps should i be taking to keep my family safe?",
+            "yes. what should i be doing?"
+          ]
+        },
+        {
+          "name": "CómoSéSiTengo",
+          "samples": [
+            "¿cómo sé si tengo covid-nineteen?"
+          ]
+        },
+        {
+          "name": "WhatIsCovid19",
+          "samples": [
+            "what is covid",
+            "what is covid-nineteen",
+            "what is covid-nineteen?",
+            "what is covid?",
+            "what is covidnineteen?",
+            "what is the coronavirus?"
+          ]
+        },
+        {
+          "name": "Hotspots",
+          "samples": [
+            "how can i tell if there are outbreaks near me?",
+            "is there a dashboard for the kansas city region?",
+            "where are the cases in our region?"
+          ]
+        },
+        {
+          "name": "FoodServiceTested",
+          "samples": [
+            "do food service workers have to be tested?",
+            "do grocery store employees need to get tested?",
+            "should grocery store workers be tested for covid-nineteen?",
+            "should restaurant staff be tested?"
+          ]
+        },
+        {
+          "name": "SafeOutside",
+          "samples": [
+            "is it ok to go outside?",
+            "is it safe to go outside?",
+            "when can i go outside"
+          ]
+        },
+        {
+          "name": "AppData",
+          "samples": [
+            "how do i know my data is secure?",
+            "if i use the app, who gets my data?",
+            "who gets my data"
+          ]
+        },
+        {
+          "name": "ScaredToWork",
+          "samples": [
+            "can i refuse to work?",
+            "i don\u0027t feel safe at work",
+            "i don\u0027t feel safe at work?",
+            "it\u0027s not safe at work",
+            "should i work from home?",
+            "what if i\u0027m scared to work",
+            "work isn\u0027t safe"
+          ]
+        },
+        {
+          "name": "TalkToHumanCustom",
+          "slots": [
+            {
+              "name": "contacthealthdeptslot",
+              "type": "CONTACTHEALTHDEPT"
+            }
+          ],
+          "samples": [
+            "{contacthealthdeptslot}"
+          ]
+        },
+        {
+          "name": "ThrowAwayGloves",
+          "samples": [
+            "how do i know when it\u0027s time to throw away gloves?",
+            "if i wear gloves, when should i throw them away?",
+            "when do i throw away gloves?"
+          ]
+        },
+        {
+          "name": "Testing",
+          "samples": [
+            "can i get tested?",
+            "how can i go about getting tested?",
+            "how do i get tested?",
+            "should i get tested",
+            "this is a test message from the facebook team. please respond from your app within two days to confirm that the integration is functioning.",
+            "where are testing site?",
+            "where can i be tested?",
+            "where can i get a covid test?",
+            "where can i get a test?",
+            "where can i get tested",
+            "where can i get tested for covid-nineteen?",
+            "where can i get tested?",
+            "where can i go to get tested?"
+          ]
+        },
+        {
+          "name": "LosMosquitos",
+          "samples": [
+            "¿pueden los mosquitos y garrapatas transmitir el covid-nineteen?"
+          ]
+        },
+        {
+          "name": "Restaurant\u0026Bar",
+          "samples": [
+            "are bars open?",
+            "can i go clubbing",
+            "can i go out to eat?",
+            "can i go to a bar?",
+            "can i go to a restaurant",
+            "can i meet my friends at a bar?",
+            "how dangerous is it to go to a restaurant right now?",
+            "is it safe to eat at a restaurant",
+            "is it safe to eat out?",
+            "is it safe to go out to a bar?",
+            "should i hit the club",
+            "when can i go eat at a restaurant?",
+            "when can i go to a restaurant",
+            "when can i go to a restaurant?"
+          ]
+        },
+        {
+          "name": "FromFood",
+          "samples": [
+            "can i get it from eating food?",
+            "can i get it from food?",
+            "can you get coronavirus from food?",
+            "van i get corona sharing food?"
+          ]
+        },
+        {
+          "name": "IfExposed",
+          "samples": [
+            "a contact tracer told me i\u0027ve been exposed.",
+            "what do i do if i\u0027ve been exposed to covid-nineteen",
+            "what if i\u0027ve had close contact with someone who has the coronavirus",
+            "what if my husband has it?",
+            "what if someone in my house has it?",
+            "what should i do if i was exposed to someone who is covid positive?"
+          ]
+        },
+        {
+          "name": "StockUp",
+          "samples": [
+            "do i need to buy a lot of hand sanitizer?",
+            "do i need two months worth of groceries?",
+            "should i stock up on toilet paper or food?"
+          ]
+        },
+        {
+          "name": "TakeOut",
+          "samples": [
+            "how do i know if take out food is ok?",
+            "is it safe to order take out?",
+            "is take out food safe?"
+          ]
+        },
+        {
+          "name": "SchoolsReopen",
+          "slots": [
+            {
+              "name": "dateperiodslot",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "what will happen to schools {dateperiodslot}",
+            "when will schools reopen",
+            "will school be in session in the fall",
+            "will schools be open in the summer?",
+            "will schools open in the fall?"
+          ]
+        },
+        {
+          "name": "¿podráElClimaCálidoDetenerElCovid19?",
+          "samples": [
+            "¿las infecciones de covid-nineteen dependen de la temperatura?",
+            "¿podrá el clima cálido detener el covid-nineteen?",
+            "¿se termina o se va el virus cuando hay un clima frío?"
+          ]
+        },
+        {
+          "name": "Antibiotics",
+          "samples": [
+            "can you treat coronavirus with antibiotics?",
+            "do antibiotics cure covid?",
+            "do antibiotics kill coronavirus?"
+          ]
+        },
+        {
+          "name": "WhenToGoToHospital",
+          "slots": [
+            {
+              "name": "numberslot",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{numberslot}",
+            "help me!!",
+            "how do i know if i should get help",
+            "how do i know if i\u0027m sick enough to go to the hospital",
+            "i need emergency help",
+            "i\u0027m having an emergency",
+            "should i go to the hospital",
+            "when should i go to the er",
+            "when should i go to the hospital"
+          ]
+        },
+        {
+          "name": "NoMask",
+          "samples": [
+            "i refuse to wear a mask",
+            "i will not wear a mask",
+            "i won\u0027t wear a mask",
+            "why doesn\u0027t trump wear a mask?",
+            "you can\u0027t make me wear a mask"
+          ]
+        },
+        {
+          "name": "MedicareScam",
+          "samples": [
+            "i got a call asking for my medicare information",
+            "i heard there\u0027s a medicare scam",
+            "someone called me about medicare",
+            "someone called me and said i could get a free test if i give them my medicare info. is that legit?"
+          ]
+        },
+        {
+          "name": "HowMuch",
+          "samples": [
+            "are they free?",
+            "do i have to pay to get tested?",
+            "how much does a test cost",
+            "how much does a test cost?",
+            "how much does covid testing cost?",
+            "how much does it cost",
+            "how much does it cost?",
+            "is testing free",
+            "what does it cost"
+          ]
+        },
+        {
+          "name": "ContactHealthDept",
+          "samples": [
+            "contact health dept",
+            "contact my health dept",
+            "do you have the phone number for the health department?",
+            "how can i get help",
+            "how do i contact my health department?",
+            "how do i contact my health dept.",
+            "how do i contact the health dept",
+            "what\u0027s the phone number for the health department?",
+            "where do i go for help",
+            "where is my local health dept.",
+            "who can i talk to for help",
+            "who is my local health dept.?"
+          ]
+        },
+        {
+          "name": "¿deboTomarOInyectarmeElDesinfectante?",
+          "samples": [
+            "¿debo tomar o inyectarme el desinfectante?",
+            "¿es bueno tomar o inyectarme el desinfectante?"
+          ]
+        },
+        {
+          "name": "AnotherStayathome",
+          "samples": [
+            "what would cause the stay-at-home orders to be reimplemented?",
+            "will stay at home orders happen again?",
+            "will we go back into lockdown?",
+            "will we have to implement lockdown again?"
+          ]
+        },
+        {
+          "name": "WhoIsComebackKc",
+          "samples": [
+            "is comeback kc a non-profit?",
+            "what is comeback kc",
+            "what is comeback kc?",
+            "who is behind this",
+            "who is comeback kc"
+          ]
+        },
+        {
+          "name": "Lockdown",
+          "samples": [
+            "is lockdown over",
+            "is lockdown over?",
+            "is the stay at home order lifted?",
+            "when can i go out again",
+            "when is lockdown over",
+            "when is lockdown over?",
+            "when will lockdown end",
+            "when will stay at home end",
+            "when will the stay-at-home order be lifted?"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "CONTACTA_AL_DEPARTAMENTO",
+          "values": [
+            {
+              "name": {
+                "value": "llama (eight hundred sixteen) five hundred thirteen-six thousand eight o visita https://kcmo.gov/coronavirus",
+                "synonyms": [
+                  "kcmo",
+                  "kansas city mo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "llama nine hundred thirteen-eight hundred twenty six-one thousand two hundred o visita https://joco.gov/coronavirus.",
+                "synonyms": [
+                  "joco",
+                  "johnson",
+                  "johnson county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "llama (nine hundred thirteen) five hundred seventy three-eight thousand eight hundred fifty five o visita https://alpha.wycokck.org/coronavirus-covid-nineteen-information.",
+                "synonyms": [
+                  "wyco",
+                  "kck",
+                  "wyandotte",
+                  "wyandotte county",
+                  "dotte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "llama eight hundred sixteen.eight hundred fifty eight.two thousand four hundred twelve o visita https://www.plattecountyhealthdept.com/emergency.aspx.",
+                "synonyms": [
+                  "platte",
+                  "platte county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "llama (eight hundred sixteen) three hundred eighty-eight thousand four hundred twenty five o visita https://casscounty.com/two thousand one hundred fifty eight/health-department.",
+                "synonyms": [
+                  "cass",
+                  "cass county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "llama (eight hundred sixteen) five hundred ninety five-four thousand two hundred o visita https://www.clayhealth.com/two hundred seventy nine/covid-nineteen-twentynineteen-novel-coronavirus.",
+                "synonyms": [
+                  "clay",
+                  "clay county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "llama (eight hundred seventy seven) four hundred thirty five-eight thousand four hundred eleven o visita https://www.jacohd.org.",
+                "synonyms": [
+                  "jackson",
+                  "jackson county",
+                  "jaco",
+                  "jackson cty."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "CONTACTHEALTHDEPT",
+          "values": [
+            {
+              "name": {
+                "value": "call the kcmo health dept. at (eight hundred sixteen) five hundred thirteen-six thousand eight or visit https://kcmo.gov/coronavirus",
+                "synonyms": [
+                  "kcmo",
+                  "kansas city mo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the joco health dept. at nine hundred thirteen-eight hundred twenty six-one thousand two hundred or visit https://joco.gov/coronavirus.",
+                "synonyms": [
+                  "joco",
+                  "johnson",
+                  "johnson county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the wyco health dept. at (nine hundred thirteen) five hundred seventy three-eight thousand eight hundred fifty five or visit https://alpha.wycokck.org/coronavirus-covid-nineteen-information.",
+                "synonyms": [
+                  "wyco",
+                  "kck",
+                  "wyandotte",
+                  "wyandotte county",
+                  "dotte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the platte cty health dept. at eight hundred sixteen.eight hundred fifty eight.two thousand four hundred twelve or visit https://www.plattecountyhealthdept.com/emergency.aspx.",
+                "synonyms": [
+                  "platte",
+                  "platte county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the cass cty health dept. at (eight hundred sixteen) three hundred eighty-eight thousand four hundred twenty five or visit https://casscounty.com/two thousand one hundred fifty eight/health-department.",
+                "synonyms": [
+                  "cass",
+                  "cass county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the clay cty health dept. at (eight hundred sixteen) five hundred ninety five-four thousand two hundred or visit https://www.clayhealth.com/two hundred seventy nine/covid-nineteen-twentynineteen-novel-coronavirus.",
+                "synonyms": [
+                  "clay",
+                  "clay county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the jackson county health dept. at (eight hundred seventy seven) four hundred thirty five-eight thousand four hundred eleven or visit https://www.jacohd.org.",
+                "synonyms": [
+                  "jackson",
+                  "jackson county",
+                  "jaco",
+                  "jackson cty."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "SYMPTOMS",
+          "values": [
+            {
+              "name": {
+                "value": "sore throat",
+                "synonyms": [
+                  "sore throat",
+                  "throat tickle",
+                  "tickle in my throat",
+                  "throat pain"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "cough",
+                "synonyms": [
+                  "cough",
+                  "dry cough"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "fever",
+                "synonyms": [
+                  "fever"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "chills",
+                "synonyms": [
+                  "chills"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "headache",
+                "synonyms": [
+                  "headache"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "loss of taste or smell",
+                "synonyms": [
+                  "loss of taste or smell"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tiredness",
+                "synonyms": [
+                  "tiredness",
+                  "fatigue",
+                  "weak",
+                  "weakness",
+                  "lethargy"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "aches and pains",
+                "synonyms": [
+                  "aches and pains",
+                  "muscle ache",
+                  "body hurts"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "breathing issues",
+                "synonyms": [
+                  "breathing issues",
+                  "problems breathing",
+                  "difficulty breathing",
+                  "hard time breathing"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "SYMPTOMS",
+          "values": [
+            {
+              "name": {
+                "value": "sore throat",
+                "synonyms": [
+                  "sore throat",
+                  "throat tickle",
+                  "tickle in my throat",
+                  "throat pain"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "cough",
+                "synonyms": [
+                  "cough",
+                  "dry cough"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "fever",
+                "synonyms": [
+                  "fever"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "chills",
+                "synonyms": [
+                  "chills"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "headache",
+                "synonyms": [
+                  "headache"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "loss of taste or smell",
+                "synonyms": [
+                  "loss of taste or smell"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tiredness",
+                "synonyms": [
+                  "tiredness",
+                  "fatigue",
+                  "weak",
+                  "weakness",
+                  "lethargy"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "aches and pains",
+                "synonyms": [
+                  "aches and pains",
+                  "muscle ache",
+                  "body hurts"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "breathing issues",
+                "synonyms": [
+                  "breathing issues",
+                  "problems breathing",
+                  "difficulty breathing",
+                  "hard time breathing"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "CONTACTHEALTHDEPT",
+          "values": [
+            {
+              "name": {
+                "value": "call the kcmo health dept. at (eight hundred sixteen) five hundred thirteen-six thousand eight or visit https://kcmo.gov/coronavirus",
+                "synonyms": [
+                  "kcmo",
+                  "kansas city mo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the joco health dept. at nine hundred thirteen-eight hundred twenty six-one thousand two hundred or visit https://joco.gov/coronavirus.",
+                "synonyms": [
+                  "joco",
+                  "johnson",
+                  "johnson county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the wyco health dept. at (nine hundred thirteen) five hundred seventy three-eight thousand eight hundred fifty five or visit https://alpha.wycokck.org/coronavirus-covid-nineteen-information.",
+                "synonyms": [
+                  "wyco",
+                  "kck",
+                  "wyandotte",
+                  "wyandotte county",
+                  "dotte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the platte cty health dept. at eight hundred sixteen.eight hundred fifty eight.two thousand four hundred twelve or visit https://www.plattecountyhealthdept.com/emergency.aspx.",
+                "synonyms": [
+                  "platte",
+                  "platte county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the cass cty health dept. at (eight hundred sixteen) three hundred eighty-eight thousand four hundred twenty five or visit https://casscounty.com/two thousand one hundred fifty eight/health-department.",
+                "synonyms": [
+                  "cass",
+                  "cass county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the clay cty health dept. at (eight hundred sixteen) five hundred ninety five-four thousand two hundred or visit https://www.clayhealth.com/two hundred seventy nine/covid-nineteen-twentynineteen-novel-coronavirus.",
+                "synonyms": [
+                  "clay",
+                  "clay county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the jackson county health dept. at (eight hundred seventy seven) four hundred thirty five-eight thousand four hundred eleven or visit https://www.jacohd.org.",
+                "synonyms": [
+                  "jackson",
+                  "jackson county",
+                  "jaco",
+                  "jackson cty."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "CONTACTHEALTHDEPT",
+          "values": [
+            {
+              "name": {
+                "value": "call the kcmo health dept. at (eight hundred sixteen) five hundred thirteen-six thousand eight or visit https://kcmo.gov/coronavirus",
+                "synonyms": [
+                  "kcmo",
+                  "kansas city mo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the joco health dept. at nine hundred thirteen-eight hundred twenty six-one thousand two hundred or visit https://joco.gov/coronavirus.",
+                "synonyms": [
+                  "joco",
+                  "johnson",
+                  "johnson county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the wyco health dept. at (nine hundred thirteen) five hundred seventy three-eight thousand eight hundred fifty five or visit https://alpha.wycokck.org/coronavirus-covid-nineteen-information.",
+                "synonyms": [
+                  "wyco",
+                  "kck",
+                  "wyandotte",
+                  "wyandotte county",
+                  "dotte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the platte cty health dept. at eight hundred sixteen.eight hundred fifty eight.two thousand four hundred twelve or visit https://www.plattecountyhealthdept.com/emergency.aspx.",
+                "synonyms": [
+                  "platte",
+                  "platte county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the cass cty health dept. at (eight hundred sixteen) three hundred eighty-eight thousand four hundred twenty five or visit https://casscounty.com/two thousand one hundred fifty eight/health-department.",
+                "synonyms": [
+                  "cass",
+                  "cass county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the clay cty health dept. at (eight hundred sixteen) five hundred ninety five-four thousand two hundred or visit https://www.clayhealth.com/two hundred seventy nine/covid-nineteen-twentynineteen-novel-coronavirus.",
+                "synonyms": [
+                  "clay",
+                  "clay county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the jackson county health dept. at (eight hundred seventy seven) four hundred thirty five-eight thousand four hundred eleven or visit https://www.jacohd.org.",
+                "synonyms": [
+                  "jackson",
+                  "jackson county",
+                  "jaco",
+                  "jackson cty."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "SYMPTOMS",
+          "values": [
+            {
+              "name": {
+                "value": "sore throat",
+                "synonyms": [
+                  "sore throat",
+                  "throat tickle",
+                  "tickle in my throat",
+                  "throat pain"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "cough",
+                "synonyms": [
+                  "cough",
+                  "dry cough"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "fever",
+                "synonyms": [
+                  "fever"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "chills",
+                "synonyms": [
+                  "chills"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "headache",
+                "synonyms": [
+                  "headache"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "loss of taste or smell",
+                "synonyms": [
+                  "loss of taste or smell"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tiredness",
+                "synonyms": [
+                  "tiredness",
+                  "fatigue",
+                  "weak",
+                  "weakness",
+                  "lethargy"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "aches and pains",
+                "synonyms": [
+                  "aches and pains",
+                  "muscle ache",
+                  "body hurts"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "breathing issues",
+                "synonyms": [
+                  "breathing issues",
+                  "problems breathing",
+                  "difficulty breathing",
+                  "hard time breathing"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "CONTACTHEALTHDEPT",
+          "values": [
+            {
+              "name": {
+                "value": "call the kcmo health dept. at (eight hundred sixteen) five hundred thirteen-six thousand eight or visit https://kcmo.gov/coronavirus",
+                "synonyms": [
+                  "kcmo",
+                  "kansas city mo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the joco health dept. at nine hundred thirteen-eight hundred twenty six-one thousand two hundred or visit https://joco.gov/coronavirus.",
+                "synonyms": [
+                  "joco",
+                  "johnson",
+                  "johnson county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the wyco health dept. at (nine hundred thirteen) five hundred seventy three-eight thousand eight hundred fifty five or visit https://alpha.wycokck.org/coronavirus-covid-nineteen-information.",
+                "synonyms": [
+                  "wyco",
+                  "kck",
+                  "wyandotte",
+                  "wyandotte county",
+                  "dotte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the platte cty health dept. at eight hundred sixteen.eight hundred fifty eight.two thousand four hundred twelve or visit https://www.plattecountyhealthdept.com/emergency.aspx.",
+                "synonyms": [
+                  "platte",
+                  "platte county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the cass cty health dept. at (eight hundred sixteen) three hundred eighty-eight thousand four hundred twenty five or visit https://casscounty.com/two thousand one hundred fifty eight/health-department.",
+                "synonyms": [
+                  "cass",
+                  "cass county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the clay cty health dept. at (eight hundred sixteen) five hundred ninety five-four thousand two hundred or visit https://www.clayhealth.com/two hundred seventy nine/covid-nineteen-twentynineteen-novel-coronavirus.",
+                "synonyms": [
+                  "clay",
+                  "clay county"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "call the jackson county health dept. at (eight hundred seventy seven) four hundred thirty five-eight thousand four hundred eleven or visit https://www.jacohd.org.",
+                "synonyms": [
+                  "jackson",
+                  "jackson county",
+                  "jaco",
+                  "jackson cty."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
